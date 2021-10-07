@@ -21,7 +21,7 @@ const TurtleCarousel = () => {
     })
 
     return (
-        <Carousel className="slide" controls={false} indicators={false} pause={false} fade={true} interval={2000} style={{maxWidth:"20%"}}>
+        <Carousel className="slide" controls={false} indicators={false} pause={false} fade={true} interval={2000} style={{maxWidth:"25%"}}>
             {images.map((elem, index) =>
 
                 <Carousel.Item>

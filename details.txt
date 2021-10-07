@@ -1,0 +1,60 @@
+-Nav Bar-
+Transparent nav bar with a Home, About, Rarity, Roadmap, Attributes, FAQ, Connect wallet
+
+For Now, Make sure Home goes back to the very top of home page, About Scrolls down to the about section which is on the home page, Rarity, Roadmap, attributes are Later so maybe just have it go to home page for now?, Faq have it scroll down to bottom of homepage where it is at. And for connect your wallet, make sure you are allowed to connect a wallet from Phantom.
+
+-hero section-
+
+[Bold] Cozy Turtles 
+10,000 unique, cute, and cozy turtles living in the Solana blockchain. Each of them are uniquely generated with more than 120+ hand drawn traits! (Add one of our pictures to go next to the text)
+Under this text^ add 3 buttons, Mint, Join Our Discord, Stay tuned on Twitter ( Mint - Say "coming soon", Discord link - https://discord.gg/cozyturtles , Twitter Link - https://twitter.com/CozyTurtlesNFT )
+EXAMPLES : https://prnt.sc/1uiffcm , https://prnt.sc/1uifhm2
+
+-below hero section-
+Something similar to this https://prnt.sc/1uif2xp
+
+-About Section-
+https://prnt.sc/1uifv6n
+
+Cozy Turtles NFTs are collections of programmatically, randomly generated NFTs on the Solana blockchain. The 1st generation consists of 10,000 randomly assembled turtles from over 300k total options. Each Turtle is comprised of a unique body, hat, face and outfit - the possibilities are endless!
+
+For more information on our roadmap, faq, etc, join our Discord! (have "join our discord!" as a clickable link
+
+-Meet Our Team-
+https://prnt.sc/1uifzi1
+For the team add Ecko, Hyeri, Kurona, Katherine, Jupiter, Pretz, AdrianK
+
+-Frequently Asked Questions-
+https://prnt.sc/1uigg26
+
+What are Cozy Turtles? - Cozy Turtles are 10,000 algorithmically generated, unique, cute and collectible Turtles with proof of ownership stored on the Solana blockchain!
+
+How do I purchase a Cozy Turtle? - Purchasing a Cozy Turtle is super simple. Connect your Solana wallet and follow the buy prompts.
+1. Download the Phantom extension for your browser(Google Chrome recommended).
+
+2. Buy Solana(SOL) on an exchange like FTX, Binance, Coinbase etc and send it to your Phantom or Sollet wallet Public Address.
+
+3. Connect your Wallet to our website by clicking on the Connect button.
+
+4. On release (TBA) click our “Mint a Cozy Turtle”. We are trying to structure our distribute to be as fair as possible, with live minting & instant distribution. However, if the solana blockchain gets clogged it could take a bit to receive your NFT.
+
+Where does my NFT go after I purchase a Cozy Turlte? - Your Cozy Turtle NFT artwork will be sent to the wallet you purchased via in a matter of minutes.
+
+How many NFTs will you sell? - 10,000 will be minted in total.
+
+What Solana wallets can I use? - At launch we will be allowing purchases and management through two of Solana’s main wallets; Phantom and Sollet.
+
+Is each Cozy Turtle unique? - Yes each Cozy Turtle will be unique, we have ensured via code on the backend that no two NFTs will be replicated.
+
+What can I do with my Cozy Turtle? - The main function will to be cute and collectible. The game changing utility will be Turtle FUSION with Two or even Three NFTs needed to be burnt to mint a new NFT. Possibly getting a 1/1 Extremely Rare NFT.
+
+How were the Cozy Turtles generated? - They are generated using the Magic Code from Metaplex! They have provided an excellent way to generate NFTs and it’s a standard protocol used on Solana now. This will allow 3rd party selling via Sol Sea!
+ 
+Who is behind Cozy Turltes NFT? - We are a dedicated team of artists, solana enthusiasts, stakers, and coders. We are generally just excited about the Solana ecosystem in general and hope we can be a force for good in this budding ecosystem.
+
+How to get in touch with us? - We are available via our Twitter and Discord that are embedded in the website.
+
+-Footer-
+https://prnt.sc/1uihnur
+
+
