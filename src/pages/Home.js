@@ -55,9 +55,6 @@ const Home = () => {
       </Container>
       <Row style={{ marginTop: "100px" }} className="m-6 p-6">
         <TurtleCarousel />
-        <TurtleCarousel />
-        <TurtleCarousel />
-        <TurtleCarousel />
       </Row>
 
       <Row style={{ marginTop: "150px" }}>
