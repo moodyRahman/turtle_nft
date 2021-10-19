@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div
       className="fixed-bottom"
-      style={{ background: "#edf5e0", marginTop: "50px", }}
+      style={{ background: "#05396b", marginTop: "50px", color:"white" }}
     >
       <Row style={{ padding: "20px" }}>
         <Col>
