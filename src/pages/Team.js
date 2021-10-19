@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <Container id="team">
       <Row align="center">
-        <h1 style={{ fontSize: "75px" }}>The Team</h1>
+        <h1 style={{ fontSize: "2rem" }}>The Team</h1>
       </Row>
 
       <Row align="center" style={{ padding: "25px" }}>

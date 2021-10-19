@@ -1,12 +1,27 @@
-import { Col, Row } from "react-bootstrap";
+import { useEffect, useState } from "react";
+import { Col, Collapse, Row } from "react-bootstrap";
 import discord from "../assets/discord.png";
 import twitter from "../assets/twitter.png";
 
 const Footer = () => {
+
+  const isBaby = () => {
+    // https://stackoverflow.com/a/8876069
+    const width = Math.max(
+      document.documentElement.clientWidth,
+      window.innerWidth || 0
+    )
+    if (width <= 768) return true;
+    return false
+  }
+
   return (
     <div
-      className="fixed-bottom"
+      className={
+        isBaby()?"":"fixed-bottom"
+      }
       style={{ background: "#05396b", marginTop: "50px", color:"white" }}
+      id="footer"
     >
       <Row style={{ padding: "20px" }}>
         <Col>
