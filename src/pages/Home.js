@@ -2,7 +2,8 @@ import Button from "@restart/ui/esm/Button";
 import { Container, Row, Col } from "react-bootstrap";
 import TurtleCarousel from "../components/Carousel";
 import logo from "../assets/logo.png";
-import About from "./About.js"
+import Team from "./Team";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
 
     // find a cooler font
     
-    <Container className="text-center" style={{ color: "#5cdb94" }}>
+    <Container className="text-center" style={{ color: "#5cdb94", marginBottom:"100px" }}>
       <Row id="home">
         <div>
           <h1 className="display-4 p-2 m-5" style={{ fontWeight: 500 }}>
@@ -83,8 +84,7 @@ const Home = () => {
           <div style={{ fontSize: "20px" }}>1 Cozy Turtle</div>
         </Col>
       </Row>
-      <Row>
-        <hr
+      <hr
           style={{
             marginTop: "75px",
             marginBottom: "75px",
@@ -93,8 +93,18 @@ const Home = () => {
             width: "50%",
           }}
         />
-      </Row>
-      <About />
+      <Team />
+      <hr
+          style={{
+            marginTop: "75px",
+            marginBottom: "75px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "50%",
+          }}
+        />
+      <Faq />
+    
     </Container>
   );
 };

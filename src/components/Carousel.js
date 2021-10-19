@@ -18,7 +18,7 @@ const TurtleCarousel = () => {
         options={{
           rewind: true,
           width: 1200,
-          gap: "1rem",
+          gap: "2.5rem",
           perMove:5,
           pagination: false,
           arrows: false,
@@ -33,34 +33,34 @@ const TurtleCarousel = () => {
         }}
       >
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p0} alt="1" />
+          <img style={{ width: "120%" }} src={p0} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p1} alt="1" />
+          <img style={{ width: "120%" }} src={p1} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p2} alt="1" />
+          <img style={{ width: "120%" }} src={p2} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p3} alt="1" />
+          <img style={{ width: "120%" }} src={p3} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p4} alt="1" />
+          <img style={{ width: "120%" }} src={p4} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p5} alt="1" />
+          <img style={{ width: "120%" }} src={p5} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p6} alt="1" />
+          <img style={{ width: "120%" }} src={p6} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p7} alt="1" />
+          <img style={{ width: "120%" }} src={p7} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p8} alt="1" />
+          <img style={{ width: "120%" }} src={p8} alt="1" />
         </SplideSlide>
         <SplideSlide>
-          <img style={{ width: "100%" }} src={p9} alt="2" />
+          <img style={{ width: "120%" }} src={p9} alt="2" />
         </SplideSlide>
       </Splide>
     </Container>

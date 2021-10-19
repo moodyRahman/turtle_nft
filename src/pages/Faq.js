@@ -2,7 +2,7 @@ import { Container, Accordion } from "react-bootstrap";
 
 const Faq = () => {
   return (
-    <Container style={{ paddingTop: "20px" }}>
+    <Container id="faq" style={{ paddingTop: "20px" }}>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>What are Cozy Turtles?</Accordion.Header>

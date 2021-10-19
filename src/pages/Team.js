@@ -2,7 +2,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 const Team = () => {
   return (
-    <Container>
+    <Container id="team">
       <Row align="center">
         <h1 style={{ fontSize: "75px" }}>The Team</h1>
       </Row>
