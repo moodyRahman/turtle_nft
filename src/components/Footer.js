@@ -23,15 +23,17 @@ const Footer = () => {
       style={{ background: "#05396b", marginTop: "50px", color:"white" }}
       id="footer"
     >
-      <Row style={{ padding: "20px" }}>
+      <Row style={{}}>
         <Col>
           <h5>Cozy Turtles</h5>
           10,000 algorithmically generated turtles <br />
-          <a href="https://discord.gg/cozyturtles">
-            <img alt="discord" style={{ width: "50px" }} src={discord} />
+        </Col>
+        <Col>
+        <a href="https://discord.gg/cozyturtles">
+            <img alt="discord" style={{ float:"right", width: "50px" }} src={discord} />
           </a>
           <a href="https://twitter.com/CozyTurtlesNFT">
-            <img alt="twitter" style={{ width: "50px" }} src={twitter} />
+            <img alt="twitter" style={{ float:"right", width: "50px" }} src={twitter} />
           </a>
         </Col>
 

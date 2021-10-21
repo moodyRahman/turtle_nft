@@ -1,13 +1,14 @@
 import { Container, Accordion } from "react-bootstrap";
 
 const Faq = () => {
+
   return (
-    <Container id="faq" style={{ paddingTop: "20px" }}>
+    <Container className="text-left" id="faq" style={{ paddingTop: "20px", color:"#05396b" }}>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>What are Cozy Turtles?</Accordion.Header>
           <Accordion.Body>
-            Cozy Turtles are 10,000 algorithmically generated, unique, cute and
+            Cozy Turtles are 5,555 algorithmically generated, unique, cute and
             collectible Turtles with proof of ownership stored on the Solana
             blockchain!
           </Accordion.Body>
@@ -51,7 +52,7 @@ const Faq = () => {
 
         <Accordion.Item eventKey="3">
           <Accordion.Header>How many NFTs will you sell?</Accordion.Header>
-          <Accordion.Body>10,000 will be minted in total.</Accordion.Body>
+          <Accordion.Body>5,55 will be minted in total.</Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="4">

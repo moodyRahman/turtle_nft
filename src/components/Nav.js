@@ -1,54 +1,67 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import Button from "@restart/ui/esm/Button";
+import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const MoodNav = () => {
   return (
     <Container fluid style={{ display: "flex", flexDirection: "row" }}>
-      <Navbar
-        fixed="top"
-        expand="lg"
-        style={{ backgroundColor: "rgba(92, 219, 148, 1)" }}
-        variant="dark"
-        // make that green
-      >
-        <Navbar.Collapse>
-          <Navbar.Brand
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginRight: "-500px",
-            }}
-            as={Link}
-            to="/"
-          >
-            <img style={{ width: "5%", float: "left" }} alt="logo" src={logo} />
-            Cozy Turtles
-          </Navbar.Brand>
+      <Row>
+        <Navbar
+          fixed="top"
+          expand="lg"
+          style={{ backgroundColor: "rgba(92, 219, 148, 1)", paddingBottom:"0px", paddingTop:"0px" }}
+          variant="dark"
+          // make that green
+        >
+          <Navbar.Collapse>
+            <Col>
+              <Navbar.Brand
+                as={Link}
+                to="/"
+              >
+                <img
+                  style={{ width: "8%", float: "left" }}
+                  alt="logo"
+                  src={logo}
 
-          <Nav style={{ display: "flex", flexDirection: "row" }}>
-            <Nav.Link style={{ color: "#05396b" }} href="#team">
-              The Team
-            </Nav.Link>
-            <Nav.Link style={{ color: "#05396b" }} href="#faq">
-              FAQ
-            </Nav.Link>
-            <Nav.Link style={{ color: "#05396b" }} href="#rarity">
-              Rarity
-            </Nav.Link>
-            <Nav.Link style={{ color: "#05396b" }} href="#roadmap">
-              Roadmap
-            </Nav.Link>
-            <Nav.Link style={{ color: "#05396b" }} href="#attributes">
-              Attributes
-            </Nav.Link>
-          </Nav>
+                />
+                <div style={{color:"#05396b", fontSize:"2rem",fontWeight:"1000", marginLeft:"65px", marginTop:"10px", marginBottom:"-40px"}}>
+                Cozy Turtles
+                  </div>
+              </Navbar.Brand>
+            </Col>
+            
+            <Col align="center">
+            <Nav style={{ display: "flex", flexDirection: "row", justifyContent:"center", }}>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#team">
+                The Team
+              </Nav.Link>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#faq">
+                FAQ
+              </Nav.Link>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#rarity">
+                Rarity
+              </Nav.Link>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#roadmap">
+                Roadmap
+              </Nav.Link>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#attributes">
+                Attributes
+              </Nav.Link>
+            </Nav>
+            </Col>
 
-          <Nav.Link style={{ color: "#05396b" }} as={Link} to="/wallet">
-            Connect Wallet
-          </Nav.Link>
-        </Navbar.Collapse>
-      </Navbar>
+            <Col className="text-end">
+
+            <Button style={{float:"right", width:"30%", color: "#05396b", border:"solid", borderRadius:"10px" }} as={Nav.Link}>
+                Connect Wallet
+            </Button>
+
+            </Col>
+          </Navbar.Collapse>
+        </Navbar>
+      </Row>
     </Container>
   );
 };

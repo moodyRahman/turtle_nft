@@ -5,15 +5,12 @@ import logo from "../assets/logo.png";
 import Team from "./Team";
 import Faq from "./Faq";
 import Calculator from "../components/Calculator";
+import Roadmap from "./Roadmap";
 
 const Home = () => {
   return (
-
-
-    // find a cooler font
-    
-    <Container className="text-center" style={{ color: "#5cdb94", marginBottom:"100px" }}>
-      <Row id="home">
+    <Container style={{ color: "#5cdb94", marginBottom: "100px" }}>
+      <Row className="text-center" id="home">
         <div>
           <h1 className="display-4 p-2 m-5" style={{ fontWeight: 500 }}>
             Cozy Turtles
@@ -21,14 +18,14 @@ const Home = () => {
         </div>
       </Row>
 
-      <Container>
+      <Container className="text-center" style={{fontSize:"1.5rem"}}>
         10,000 unique, cute, and cozy turtles living in the Solana blockchain.
         Each of them are uniquely generated with more than 120+ hand drawn
         traits!
       </Container>
 
       {/* make the buttons larger and move them closer to the carousel */}
-      <Container style={{paddingTop:"75px"}}>
+      <Container className="text-center" style={{ paddingTop: "25px" }}>
         <Button
           className="btn btn-primary m-3"
           style={{ backgroundColor: "#05396b" }}
@@ -55,34 +52,44 @@ const Home = () => {
           Twitter
         </Button>
       </Container>
-      <Row style={{ marginTop: "100px" }} className="m-6 p-6">
+      <Row fluid style={{ marginTop: "75px" }} className="m-6 p-6">
         <TurtleCarousel />
       </Row>
 
-      <Row style={{ marginTop: "150px" }}>
+      <Row className="text-center" style={{ marginTop: "150px" }}>
         <Calculator />
       </Row>
       <hr
-          style={{
-            marginTop: "75px",
-            marginBottom: "75px",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "50%",
-          }}
-        />
-      <Team />
+        style={{
+          marginTop: "75px",
+          marginBottom: "75px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "50%",
+        }}
+      />
+      <Roadmap />
       <hr
-          style={{
-            marginTop: "75px",
-            marginBottom: "75px",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "50%",
-          }}
-        />
+        style={{
+          marginTop: "75px",
+          marginBottom: "75px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "50%",
+        }}
+      />
       <Faq />
-    
+
+      <hr
+        style={{
+          marginTop: "75px",
+          marginBottom: "75px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "50%",
+        }}
+      />
+      <Team />
     </Container>
   );
 };
