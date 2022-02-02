@@ -22,7 +22,7 @@ const Roadmap = () => {
 
   return (
     <Container id="roadmap" style={{ paddingTop: "5rem" }}>
-      <Row style={{ fontSize: isBaby()?"200%":"250%" }}>Roadmap</Row>
+      <Row style={{ fontSize: isBaby()?"200%":"250%" }}>🚀 Roadmap 🚀</Row>
 
       <Map title="1">
         Launch 5,555 adorable and unique Cozy Turtles created and available to
