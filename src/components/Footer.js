@@ -20,20 +20,22 @@ const Footer = () => {
       className={
         isBaby()?"":"fixed-bottom"
       }
-      style={{ background: "#05396b", marginTop: "50px", color:"white" }}
+      style={{padding:"5px", paddingLeft:"15px", background: "#5cdb94", marginTop: "50px", marginLeft:"0px", color:"white" }}
       id="footer"
     >
-      <Row style={{}}>
+      <Row style={{color:"#05396b"}}>
         <Col>
-          <h5>Cozy Turtles</h5>
-          10,000 algorithmically generated turtles <br />
+          <h6>Cozy Turtles ©</h6>
+          <div style={{fontSize:"80%"}}>
+          5,555 algorithmically generated turtles <br />
+          </div>
         </Col>
         <Col>
         <a href="https://discord.gg/cozyturtles">
             <img alt="discord" style={{ float:"right", width: "50px" }} src={discord} />
           </a>
           <a href="https://twitter.com/CozyTurtlesNFT">
-            <img alt="twitter" style={{ float:"right", width: "50px" }} src={twitter} />
+            <img alt="twitter" style={{ float:"right", width: "65px", paddingTop:"12px", paddingLeft:"10px" }} src={twitter} />
           </a>
         </Col>
 
