@@ -6,6 +6,7 @@ import Team from "./Team";
 import Faq from "./Faq";
 import Calculator from "../components/Calculator";
 import Roadmap from "./Roadmap";
+import LineBreak from "../components/LineBreak";
 
 const Home = () => {
   return (
@@ -56,40 +57,41 @@ const Home = () => {
         <TurtleCarousel />
       </Row>
 
-      <Row className="text-center" style={{ marginTop: "150px" }}>
+      <LineBreak />
+
+      <Row className="text-center" style={{ marginTop: "50px", textAlign:"center" }}>
         <Calculator />
       </Row>
-      <hr
-        style={{
-          marginTop: "75px",
-          marginBottom: "75px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: "50%",
-        }}
-      />
-      <Roadmap />
-      <hr
-        style={{
-          marginTop: "75px",
-          marginBottom: "75px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: "50%",
-        }}
-      />
-      <Faq />
+      
+      <LineBreak />
+      
+      <Container>
+        <Roadmap />
+      </Container>
 
-      <hr
-        style={{
-          marginTop: "75px",
-          marginBottom: "75px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: "50%",
-        }}
-      />
-      <Team />
+      <LineBreak />
+      
+      <Container>
+        <Faq />
+      </Container>
+
+      <LineBreak />
+
+      <Container>
+        <Team />
+      </Container>
+      
+      <LineBreak />
+      
+      <Rarity />
+
+      <LineBreak />
+      
+      <Attributes />
+
+      <LineBreak />
+
+
     </Container>
   );
 };
