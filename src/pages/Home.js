@@ -1,6 +1,6 @@
 import Button from "@restart/ui/esm/Button";
 import { Container, Row, Col } from "react-bootstrap";
-import TurtleCarousel from "../components/Carousel";
+import TurtleSplide from "../components/TurtleSplide";
 import logo from "../assets/logo.png";
 import Team from "./Team";
 import Faq from "./Faq";
@@ -53,10 +53,8 @@ const Home = () => {
           Twitter
         </Button>
       </Container>
-      <Row fluid style={{ marginTop: "75px" }} className="m-6 p-6">
-        <TurtleCarousel />
-      </Row>
-
+      <TurtleSplide />
+      
       <LineBreak />
 
       <Row className="text-center" style={{ marginTop: "50px", textAlign:"center" }}>
