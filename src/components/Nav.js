@@ -10,7 +10,7 @@ const MoodNav = () => {
         <Navbar
           fixed="top"
           expand="lg"
-          style={{ backgroundColor: "rgba(92, 219, 148, 1)", paddingBottom:"0px", paddingTop:"0px" }}
+          style={{ backgroundColor: "#5cdb94", paddingBottom:"0px", paddingTop:"0px" }}
           variant="dark"
           // make that green
         >
@@ -34,27 +34,27 @@ const MoodNav = () => {
             
             <Col align="center">
             <Nav style={{ display: "flex", flexDirection: "row", justifyContent:"center", }}>
-              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#team">
-                The Team
+            <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#roadmap">
+                Roadmap
               </Nav.Link>
               <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#faq">
                 FAQ
               </Nav.Link>
-              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#rarity">
-                Rarity
-              </Nav.Link>
-              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#roadmap">
-                Roadmap
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#team">
+                The Team
               </Nav.Link>
               <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#attributes">
                 Attributes
+              </Nav.Link>
+              <Nav.Link style={{ color: "#05396b", fontSize:"1.2rem" }} href="#rarity">
+                Rarity
               </Nav.Link>
             </Nav>
             </Col>
 
             <Col className="text-end">
 
-            <Button style={{float:"right", width:"30%", color: "#05396b", border:"solid", borderRadius:"10px" }} as={Nav.Link}>
+            <Button style={{float:"right", width:"30%", color: "#05396b", border:"solid", borderRadius:"10px", textAlign:"center" }} as={Nav.Link}>
                 Connect Wallet
             </Button>
 
