@@ -21,19 +21,17 @@ const Team = () => {
     <Container id="team">
       <Row className="text-center justify-content-center">
         <Col>
-        <h1 style={{ fontSize: "2rem" }}>The Team</h1>
+        <h1 style={{ fontSize: "2rem" }}>🌎 The Team 🌎</h1>
         </Col>
       </Row>
 
-      <Row className="justify-content-md-center">
-        <Col xs={5} sm={3}>
+      <Row className="justify-content-md-center" style={{ paddingTop: "25px" }}>
+      <Col xs={5} sm={3}>
           <TeamCard name="hyeri" image={hyeri} role="dev" width="50%" />
         </Col>
         <Col xs={5} sm={3}>
           <TeamCard name="ecko" image={ecko} role="dev" width="33%" />
         </Col>
-      </Row>
-      <Row className="justify-content-md-center" style={{ paddingTop: "25px" }}>
         <Col xs={5} sm={3}>
           <TeamCard name="hyane" image={hyane} role="mod" width="50%" />
         </Col>
@@ -44,16 +42,6 @@ const Team = () => {
             role="lead artist"
             width="50%"
           />
-        </Col>
-      </Row>
-      <Row className="justify-content-md-center" style={{ paddingTop: "25px" }}>
-        
-        <Col xs={4} sm={3}>
-          <TeamCard name="jupiter" role="artist" width="50%" />
-        </Col>
-
-        <Col xs={4} sm={3}>
-          <TeamCard name="pretz" role="artist" width="50%" />
         </Col>
       </Row>
     </Container>
