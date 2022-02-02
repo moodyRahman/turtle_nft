@@ -39,8 +39,9 @@ const Calculator = () => {
         </h3>
         <div style={{ fontSize: "20px" }}>
           <FormControl
-            className="text-center"
-            style={{width:"75%"}}
+            
+            className="text-center justify-content-center"
+            style={{width:"75%", margin:"auto"}}
             value={price}
             type="number"
             onChange={(e) => {
@@ -56,7 +57,7 @@ const Calculator = () => {
         </Button>
           
           {Number((price*0.6).toFixed(3))} SOL <br />
-          8,888 total in circulation
+          5,555 turtles available to adopt
         </div>
       </Col>
     </Container>
