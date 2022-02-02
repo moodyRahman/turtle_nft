@@ -6,21 +6,34 @@ import Team from "./Team";
 import Faq from "./Faq";
 import Calculator from "../components/Calculator";
 import Roadmap from "./Roadmap";
+import Rarity from "./Rarity";
+import Attributes from "./Attributes";
 import LineBreak from "../components/LineBreak";
 
 const Home = () => {
+  const isBaby = () => {
+    // https://stackoverflow.com/a/8876069
+    const width = Math.max(
+      document.documentElement.clientWidth,
+      window.innerWidth || 0
+    );
+    if (width <= 768) return true;
+    return false;
+  };
+
   return (
-    <Container style={{ color: "#5cdb94", marginBottom: "100px" }}>
+    <Container
+      fluid
+      style={{ color: "#5cdb94", marginBottom: "100px", padding: "0px" }}
+    >
       <Row className="text-center" id="home">
-        <div>
           <h1 className="display-4 p-2 m-5" style={{ fontWeight: 500 }}>
             Cozy Turtles
           </h1>
-        </div>
       </Row>
 
-      <Container className="text-center" style={{fontSize:"1.5rem"}}>
-        10,000 unique, cute, and cozy turtles living in the Solana blockchain.
+      <Container className="text-center" style={{ fontSize: "1.5rem" }}>
+        5,555 unique, cute, and cozy turtles living in the Solana blockchain.
         Each of them are uniquely generated with more than 120+ hand drawn
         traits!
       </Container>
@@ -52,6 +65,18 @@ const Home = () => {
         >
           Twitter
         </Button>
+
+        {isBaby() ? (
+          <Button
+            style={{ backgroundColor: "#05396b" }}
+            className="btn btn-primary m-3"
+            variant="primary"
+          >
+            Connect Wallet
+          </Button>
+        ) : (
+          <></>
+        )}
       </Container>
       <TurtleSplide />
       
