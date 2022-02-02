@@ -1,7 +1,6 @@
 import Button from "@restart/ui/esm/Button";
 import { Container, Row, Col } from "react-bootstrap";
 import TurtleSplide from "../components/TurtleSplide";
-import logo from "../assets/logo.png";
 import Team from "./Team";
 import Faq from "./Faq";
 import Calculator from "../components/Calculator";
